@@ -16,7 +16,7 @@ When a player starts, it incepts a random (whole) number and sends it to the sec
 - Spring Events
 
 For the application’s purposes, we need three tables. 
-DB Structure:
+*DB Structure* https://github.com/evisgod/game/blob/master/DB_Structure.jpeg
 
 The game table stores game details, the move table contains a list of all player moves for each particular game, and the player table stores all the player-specific data.
 
