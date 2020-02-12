@@ -13,7 +13,7 @@ When a player starts, it incepts a random (whole) number and sends it to the sec
 - Spring Boot
 - Java8
 - Maven
-- Server Sent Events
+- Spring Events
 
 For the application’s purposes, we need three tables. 
 DB Structure:
