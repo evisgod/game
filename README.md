@@ -24,7 +24,7 @@ The game table stores game details, the move table contains a list of all player
 
 REST API's created corresponding to each and every function of the game w.r.t. domain like GameController, MoveController and PlayerController.
 
-I tried to keep it simple and stupid covering almost every features of the game. Also provided addditional REST API's to support admin like move-count, last-move in a game. 
+I tried to keep it simple and stupid covering almost every features of the game. Also provided addditional REST API's for admin to check games, move-count, last-move in a game. 
 
 Once a game server is started and both players joined a game using their own instance, first player will trigger the move by sending a random number to second player over REST API and same things follows w.r.t. to Move event until number reaches `1`.
 
